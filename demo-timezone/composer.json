@@ -1,0 +1,27 @@
+{
+    "name": "minhtien/demo-timezone",
+    "description": "Demo package time zone",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vo Minh Tien",
+            "email": "minhtien020900@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "DemoPackage\\MinhTien\\Timezone\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DemoPackage\\MinhTien\\Timezone\\Provider\\DemoTimezonesServiceProvider"
+            ]
+        }
+    }
+}
