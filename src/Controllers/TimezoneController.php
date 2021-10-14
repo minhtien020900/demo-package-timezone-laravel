@@ -2,8 +2,8 @@
 
 namespace DemoPackage\MinhTien\Timezone\Controllers;
 
-use App\Http\Controllers\Controller;
-use Carbon\Carbon;
+//use App\Http\Controllers\Controller;
+//use Carbon\Carbon;
 
 class TimezoneController extends Controller
 {
